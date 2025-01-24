@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cute Log</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce0e0;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ffacac;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 100%;
+            max-width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 5px solid #ff6b6b;
+        }
+
+        .card-content {
+            padding: 15px;
+            background-color: #fff0f0;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .card-content h2 {
+            font-size: 1.6rem;
+            color: #ff6b6b;
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #ff6b6b;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Cute Log</h1>
+        <p>Sharing moments, memories, and little pieces of my world.</p>
+    </header>
+
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff" alt="Cute Image 1">
+            <div class="card-content">
+                <h2>Lovely Day Out</h2>
+                <p>Had an amazing time at the park with friends! The weather was perfect for a walk and chat. Can't wait for more sunny days.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200/ffacac/ffffff" alt="Cute Image 2">
+            <div class="card-content">
+                <h2>Pink Aesthetic Vibes</h2>
+                <p>Everything in pink! A cozy setup to relax and read my favorite book. Sometimes, simple things bring the most joy.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200/ff8ca0/ffffff" alt="Cute Image 3">
+            <div class="card-content">
+                <h2>DIY Craft Time</h2>
+                <p>Spent the afternoon creating cute little crafts. I love getting creative and adding personal touches to my room decor.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200/fad0d0/ffffff" alt="Cute Image 4">
+            <div class="card-content">
+                <h2>Coffee & Cozy Mornings</h2>
+                <p>Nothing beats a cup of coffee in the morning while enjoying the first rays of sunlight. Such a peaceful start to the day!</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200/ffb3d9/ffffff" alt="Cute Image 5">
+            <div class="card-content">
+                <h2>Weekend Fun!</h2>
+                <p>Spent my weekend exploring new places and trying out new cafes. It was an adventure full of laughter and new memories.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Cute Log | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
